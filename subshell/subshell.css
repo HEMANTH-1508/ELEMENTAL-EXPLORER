@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container for the content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #2980b9;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* List Styles for characteristics, uses, etc. */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Back Button Styling */
+.back-button button {
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button button:hover {
+    background-color: #3498db;
+}
+
+/* Bottom Back Button Placement */
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .back-button button {
+    width: 200px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    footer .back-button button {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    footer .back-button button {
+        width: 120px;
+    }
+}
