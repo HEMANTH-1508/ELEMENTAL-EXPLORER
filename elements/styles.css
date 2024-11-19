@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center center; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.element-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #000000;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.symbol-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.symbol-circle.alkali-metal {
+    background-color: #ff9999; 
+}
+
+.symbol-circle.alkaline-earth-metal {
+    background-color: #ffd699; 
+}
+
+.symbol-circle.transition-metal {
+    background-color: #ffff99; 
+}
+
+.symbol-circle.post-transition-metal {
+    background-color: #b6e7a3; 
+}
+
+.symbol-circle.metalloid {
+    background-color: #99d6ff; 
+}
+
+.symbol-circle.nonmetal {
+    background-color: #cccccc; 
+}
+
+.symbol-circle.halogen {
+    background-color: #ffccff; 
+}
+
+.symbol-circle.noble-gas {
+    background-color: #ffb3e6; 
+}
+
+.symbol-circle.lanthanide {
+    background-color: #c2c2f0; 
+}
+
+.symbol-circle.actinide {
+    background-color: #f0b3ff; 
+}
+
+.element-details h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.element-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.element-details ul li {
+    margin: 5px 0;
+}
+
+.element-details ul li strong {
+    color: #0c0c0c;
+}
+
+.back-to-home {
+    margin-top: 20px;  
+}
+
+.back-to-home a {
+    background-color: #007bff; 
+    color: white;          
+    padding: 10px 30px;       
+    font-size: 1.2rem;        
+    text-decoration: none;     
+    border-radius: 5px;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.back-to-home a:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);     
+}
